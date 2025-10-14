@@ -6,3 +6,31 @@
   ![GitHub last commit](https://img.shields.io/github/last-commit/MachariaP/airbnb-clone-project)
   ![License](https://img.shields.io/github/license/MachariaP/airbnb-clone-project)
 </div>
+
+---
+
+## 📋 Project Overview
+The **Airbnb Clone Project** is a full-stack applications designed to replicate
+core Airbnb functionalities, including user management, property listings, bookings, and reviews.
+This project focuses on building a robust, secure, and scalable backend using modern technologies to deliver a seamless user and host experience.
+
+
+### 🎯 Project Goals
+-**User Management**: Secure registration, authentication, and profile management.
+-**Property Management**: Create, Update, and Retrive property listings.
+-**Booking System**: Facilitate property reservations with check-in/check-out management.
+-**Payment Processing**: Handle secure payment transactions.
+-**Review System**: Enable users to post and manage property reviews.
+-**Data Optimization**: Optimize data retrieval and storage with indexing and caching.
+
+---
+
+##  🛠️ Technology Stack
+| Technology    | Purpose
+|
+|---------------|----------------------------------------------------
+--|
+| **Django**    | Python web framework for building secure and scalable RESTful APIs.
+|
+| **Django REST Framework** | Simplifies API development with tools for CRUD operations.
+|
