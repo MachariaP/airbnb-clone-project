@@ -62,7 +62,7 @@ The database is structured using **PostgreSQL** to manage key entities and their
 
 ![Database Schema Diagram](images/database-schema.png)
 
-*Database Schema for Airbnb Clone: Visual representation of entities and relationships, including User, Properties, Bookings, Reviews, and Payments.*
+*Database Schema for Airbnb Clone: Visual representation of entities and relationships, including Users, Properties, Bookings, Reviews, and Payments.*
 
 ---
 
@@ -143,13 +143,19 @@ They reduce errors, maintain code quality, and enable seamless deployment of the
 
 ## 📚 Resources
 - [System Design Architecture for Hotel Booking Apps](https://medium.com/nerd-for-tech/system-design-architecture-for-hotel-booking-apps-like-airbnb-oyo-6efb4f4dddd7)
-- [Software Development Team Structure](https://itrexgroup.com/blog/software-development-team-structure-roles-responsibilities/) *(ITRexGroup blog reference)*
+- [Software Development Team Structure](https://itrexgroup.com/blog/software-development-team-structure-roles-responsibilities/)
 - [Django Documentation](https://docs.djangoproject.com/)
 - [GraphQL Documentation](https://graphql.org/)
+- [Mermaid Live Editor] (https://mermaid.live)(Used for database schema diagram)
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 <div align="center">
-  <p>✨ Built with❤️ for learning and innovation ✨</p>
+  <p>✨ Built with ❤️  for learning and innovation ✨</p>
   <p>Created by <strong>Phinehas Macharia</strong></p>
 </div>
