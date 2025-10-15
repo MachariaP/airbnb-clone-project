@@ -82,3 +82,27 @@ Allows users to post ratings and comments for properties. Enhances transparency 
 Leverages indexing and Redis caching to improve data retrieval speed. Ensures a fast, responsive user experience.
 
 ---
+
+## 🔒 API Security
+Securing the backend APIs is critical for protecting user data and ensuring platform integrity. Key measures include:
+- **Authentication**
+Uses **JWT(JSON Web Tokens)** to verify user identity, preventing unauthorized access to protected endpoints like user profiles.
+
+- **Authorization**
+Implements **role-based access control** (e.g., hosts vs. guests) to restrict actions like property updates.
+Ensures users only perform permitted actions.
+
+- **Rate Limiting**
+Limits API request frequency to prevent abuse and DDoS attacks. Maintains platform stability and resource availability.
+
+- **Data Encryption**
+Employs **HTTPS** and encrypted database storage for sensitive data like payment details. Builds user trust and complies with data protection standards.
+
+<details>
+<summary>🔍 Additional Security Details</summary>
+- Input validation to prevent injection attacks.
+- Secure password hashing with bcrypt.
+- Regular security audits to identify vulnerabilities.
+</details>
+
+---
