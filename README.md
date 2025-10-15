@@ -108,3 +108,18 @@ Employs **HTTPS** and encrypted database storage for sensitive data like payment
 </details>
 
 ---
+
+## ⚙️  CI/CD Pipeline
+**CI/CD pipelines** automate testing, building, and deploying code changes, ensuring reliable and efficient development cycles.
+They reduce errors, maintain code quality, and enable seamless deployment of the backend.
+
+- **Tools Used**:
+- **GitHub Actions**: Automates testing and deployment workflows.
+- **Docker**: Ensures consistent environments across development, testing, and production.
+
+- **Why It Matters**:
+- Catches bugs early through automated tests.
+- Speeds up deployment with minimal intervention.
+- Supports scalability by standardizing environments.
+
+---
