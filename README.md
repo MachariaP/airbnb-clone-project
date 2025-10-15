@@ -61,3 +61,24 @@ The database is structured using **PostgreSQL** to manage key entities and their
 | **Payments** | `payment_id` (PK), `booking_id` (FK), `amount`, `payment_date`, `status` | Belongs to one booking (N:1). |
 
 ---
+
+## 🚀 Feature Breakdown
+- **User Management**
+Securely handles user registration, authentication, and profile updates. This feature ensures a personalized and safe platform experience.
+
+- **Property Management**
+Enables hosts to create, update and delete listings, forming the core of the platform. It allows users to browse and select accommodations easily.
+
+- **Booking System**
+Streamlines property reservations with check-in/check-out management. It connects users and hosts for efficient booking workflows.
+
+- **Payment Processing**
+Integrates secure payment gateways for booking transactions. Ensures trust and reliability in financial operations.
+
+- **Review System**
+Allows users to post ratings and comments for properties. Enhances transparency and help users make informed decisions.
+
+- **Data Optimization**
+Leverages indexing and Redis caching to improve data retrieval speed. Ensures a fast, responsive user experience.
+
+---
