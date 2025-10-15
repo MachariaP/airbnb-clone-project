@@ -10,14 +10,14 @@
 ---
 
 ## 📋 Project Overview
-The **Airbnb Clone Project** is a full-stack applications designed to replicate
+The **Airbnb Clone Project** is a full-stack application designed to replicate
 core Airbnb functionalities, including user management, property listings, bookings, and reviews.
 This project focuses on building a robust, secure, and scalable backend using modern technologies to deliver a seamless user and host experience.
 
 
 ### 🎯 Project Goals
 - **User Management**: Secure registration, authentication, and profile management.
-- **Property Management**: Create, Update, and Retrive property listings.
+- **Property Management**: Create, Update, and Retrieve property listings.
 - **Booking System**: Facilitate property reservations with check-in/check-out management.
 - **Payment Processing**: Handle secure payment transactions.
 - **Review System**: Enable users to post and manage property reviews.
@@ -43,7 +43,7 @@ This project focuses on building a robust, secure, and scalable backend using mo
 | Role                  | Responsibilities                                |
 |-----------------------|-------------------------------------------------|
 | **Backend Developer** | Implements API endpoints, database schemas, and business logic for core features. |
-| **Database Adimn**    | Designs and optimizes PostgreSQL schemas, implements indexing for performance. |
+| **Database Admin**    | Designs and optimizes PostgreSQL schemas, implements indexing for performance. |
 | **DevOps Engineer**   | Manages deployment, scaling, and monitoring using Docker and CI/CD pipelines. |
 | **QA Engineer**       | Tests backend functionalities to ensure reliability, security, and quality. |
 
@@ -57,28 +57,34 @@ The database is structured using **PostgreSQL** to manage key entities and their
 | **Users**   | `user_id` (PK), `email`, `password_hash`, `name`, `phone` | Owns multiple properties; creates bookings/review (1:N). |
 | **Properties** | `property_id` (PK), `owner_id` (FK), `title`, `description`, `price_per_night` | Belongs to one user; has multiple bookings/reviews (1:N). |
 | **Bookings** | `booking_id` (PK), `user_id` (FK), `property_id` (FK), `check_in_date`, `check_out_date` | Belongs to one user and one property (N:1). |
-| **Review** | `review_id` (PK),`user_id` (FK), `property_id` (FK), `rating`, `comment` | Belongs to one user and one property (N:1). |
+| **Reviews** | `review_id` (PK),`user_id` (FK), `property_id` (FK), `rating`, `comment` | Belongs to one user and one property (N:1). |
 | **Payments** | `payment_id` (PK), `booking_id` (FK), `amount`, `payment_date`, `status` | Belongs to one booking (N:1). |
 
 ---
 
 ## 🚀 Feature Breakdown
 - **User Management**
+
 Securely handles user registration, authentication, and profile updates. This feature ensures a personalized and safe platform experience.
 
 - **Property Management**
+
 Enables hosts to create, update and delete listings, forming the core of the platform. It allows users to browse and select accommodations easily.
 
 - **Booking System**
+
 Streamlines property reservations with check-in/check-out management. It connects users and hosts for efficient booking workflows.
 
 - **Payment Processing**
+
 Integrates secure payment gateways for booking transactions. Ensures trust and reliability in financial operations.
 
 - **Review System**
-Allows users to post ratings and comments for properties. Enhances transparency and help users make informed decisions.
+
+Allows users to post ratings and comments for properties. Enhances transparency and helps users make informed decisions.
 
 - **Data Optimization**
+
 Leverages indexing and Redis caching to improve data retrieval speed. Ensures a fast, responsive user experience.
 
 ---
@@ -86,7 +92,7 @@ Leverages indexing and Redis caching to improve data retrieval speed. Ensures a 
 ## 🔒 API Security
 Securing the backend APIs is critical for protecting user data and ensuring platform integrity. Key measures include:
 - **Authentication**
-Uses **JWT(JSON Web Tokens)** to verify user identity, preventing unauthorized access to protected endpoints like user profiles.
+Uses **JWT (JSON Web Tokens)** to verify user identity, preventing unauthorized access to protected endpoints like user profiles.
 
 - **Authorization**
 Implements **role-based access control** (e.g., hosts vs. guests) to restrict actions like property updates.
@@ -114,13 +120,13 @@ Employs **HTTPS** and encrypted database storage for sensitive data like payment
 They reduce errors, maintain code quality, and enable seamless deployment of the backend.
 
 - **Tools Used**:
-- **GitHub Actions**: Automates testing and deployment workflows.
-- **Docker**: Ensures consistent environments across development, testing, and production.
+  - **GitHub Actions**: Automates testing and deployment workflows.
+  - **Docker**: Ensures consistent environments across development, testing, and production.
 
 - **Why It Matters**:
-- Catches bugs early through automated tests.
-- Speeds up deployment with minimal intervention.
-- Supports scalability by standardizing environments.
+  - Catches bugs early through automated tests.
+  - Speeds up deployment with minimal intervention.
+  - Supports scalability by standardizing environments.
 
 ---
 
@@ -140,6 +146,6 @@ They reduce errors, maintain code quality, and enable seamless deployment of the
 ---
 
 <div align="center">
-  <p>✨ Built with ❤️  for learning and innovation ✨</p>
+  <p>✨ Built with❤️ for learning and innovation ✨</p>
   <p>Created by <strong>Phinehas Macharia</strong> | <a href="mailto:walburphinehas78@gmail.com">walburphinehas78@gmail.com</a></p>
 </div>
