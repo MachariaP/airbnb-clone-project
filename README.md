@@ -60,6 +60,10 @@ The database is structured using **PostgreSQL** to manage key entities and their
 | **Reviews** | `review_id` (PK),`user_id` (FK), `property_id` (FK), `rating`, `comment` | Belongs to one user and one property (N:1). |
 | **Payments** | `payment_id` (PK), `booking_id` (FK), `amount`, `payment_date`, `status` | Belongs to one booking (N:1). |
 
+![Database Schema Diagram](images/database-schema.png)
+
+*Database Schema for Airbnb Clone: Visual representation of entities and relationships, including User, Properties, Bookings, Reviews, and Payments.*
+
 ---
 
 ## 🚀 Feature Breakdown
@@ -147,5 +151,5 @@ They reduce errors, maintain code quality, and enable seamless deployment of the
 
 <div align="center">
   <p>✨ Built with❤️ for learning and innovation ✨</p>
-  <p>Created by <strong>Phinehas Macharia</strong> | <a href="mailto:walburphinehas78@gmail.com">walburphinehas78@gmail.com</a></p>
+  <p>Created by <strong>Phinehas Macharia</strong></p>
 </div>
