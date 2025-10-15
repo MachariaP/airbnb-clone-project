@@ -100,9 +100,9 @@ Employs **HTTPS** and encrypted database storage for sensitive data like payment
 
 <details>
 <summary>🔍 Additional Security Details</summary>
-- Input validation to prevent injection attacks.
-- Secure password hashing with bcrypt.
-- Regular security audits to identify vulnerabilities.
+- **Input Validation**: Prevents SQL injection and XSS attacks by sanitizing user inputs.
+- **Secure Password Hashing**: Uses bcrypt to securely hash passwords, protecting user credentials.
+- **Regular Security Audits**: Conducts periodic audits to identify and mitigate vulnerabilities.
 </details>
 
 ---
