@@ -123,3 +123,23 @@ They reduce errors, maintain code quality, and enable seamless deployment of the
 - Supports scalability by standardizing environments.
 
 ---
+
+## 📅 Project Timeline
+- **Start** : October 13, 2025, 12:00 AM
+- **End** : October 20, 2025, 12:00 AM
+- **Submission** : Generate review link and request peer/manual QA reviews before the deadline.
+
+---
+
+## 📚 Resources
+- [System Design Architecture for Hotel Booking Apps](https://medium.com/nerd-for-tech/system-design-architecture-for-hotel-booking-apps-like-airbnb-oyo-6efb4f4dddd7)
+- [Software Development Team Structure](https://itrexgroup.com/blog/software-development-team-structure-roles-responsibilities/) *(ITRexGroup blog reference)*
+- [Django Documentation](https://docs.djangoproject.com/)
+- [GraphQL Documentation](https://graphql.org/)
+
+---
+
+<div align="center">
+  <p>✨ Built with ❤️  for learning and innovation ✨</p>
+  <p>Created by <strong>Phinehas Macharia</strong> | <a href="mailto:walburphinehas78@gmail.com">walburphinehas78@gmail.com</a></p>
+</div>
