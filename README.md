@@ -146,7 +146,7 @@ They reduce errors, maintain code quality, and enable seamless deployment of the
 - [Software Development Team Structure](https://itrexgroup.com/blog/software-development-team-structure-roles-responsibilities/)
 - [Django Documentation](https://docs.djangoproject.com/)
 - [GraphQL Documentation](https://graphql.org/)
-- [Mermaid Live Editor] (https://mermaid.live)(Used for database schema diagram)
+- [Mermaid Live Editor](https://mermaid.live)
 
 ---
 
