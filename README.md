@@ -48,3 +48,16 @@ This project focuses on building a robust, secure, and scalable backend using mo
 | **QA Engineer**       | Tests backend functionalities to ensure reliability, security, and quality. |
 
 ---
+
+## 🗄️ Database Design
+The database is structured using **PostgreSQL** to manage key entities and their relationships.
+
+| Entity      | Key Fields                       | Relationships           |
+|-------------|----------------------------------|-------------------------|
+| **Users**   | `user_id` (PK), `email`, `password_hash`, `name`, `phone` | Owns multiple properties; creates bookings/review (1:N). |
+| **Properties** | `property_id` (PK), `owner_id` (FK), `title`, `description`, `price_per_night` | Belongs to one user; has multiple bookings/reviews (1:N). |
+| **Bookings** | `booking_id` (PK), `user_id` (FK), `property_id` (FK), `check_in_date`, `check_out_date` | Belongs to one user and one property (N:1). |
+| **Review** | `review_id` (PK),`user_id` (FK), `property_id` (FK), `rating`, `comment` | Belongs to one user and one property (N:1). |
+| **Payments** | `payment_id` (PK), `booking_id` (FK), `amount`, `payment_date`, `status` | Belongs to one booking (N:1). |
+
+---
