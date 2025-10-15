@@ -38,3 +38,13 @@ This project focuses on building a robust, secure, and scalable backend using mo
 | **CI/CD Pipelines**       | Automates testing and deployment using tools like GitHub Actions.|
 
 ---
+
+## 👥 Team Roles
+| Role                  | Responsibilities                                |
+|-----------------------|-------------------------------------------------|
+| **Backend Developer** | Implements API endpoints, database schemas, and business logic for core features. |
+| **Database Adimn**    | Designs and optimizes PostgreSQL schemas, implements indexing for performance. |
+| **DevOps Engineer**   | Manages deployment, scaling, and monitoring using Docker and CI/CD pipelines. |
+| **QA Engineer**       | Tests backend functionalities to ensure reliability, security, and quality. |
+
+---
